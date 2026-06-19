@@ -1,0 +1,31 @@
+# Secrets
+.env
+.env.local
+.env.dev
+caddy-certs/
+
+# Database
+*.db
+*.sqlite3
+*.dump
+*.sha256
+backups/
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Next.js (next-app/)
+next-app/node_modules/
+next-app/.next/
+next-app/out/
+next-app/.env.local
+
+# Build artifacts
+*.zip
+build.log
+.local-system-metrics.json
+.env.nextjs-prod

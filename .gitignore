@@ -1,0 +1,20 @@
+# Local archives and seed data
+*.zip
+*.dump
+*.sha256
+
+# Secrets
+.env
+.env.*
+!.env*.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Python / caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
